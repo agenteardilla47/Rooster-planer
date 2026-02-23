@@ -1,0 +1,5 @@
+{
+  "name": "StaffRoster - Smart Scheduler",
+  "description": "Automated staff scheduling for hospitality with weekend coverage optimization and fairness logic.",
+  "requestFramePermissions": []
+}

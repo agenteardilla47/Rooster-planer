@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&family=Barlow+Condensed:wght@700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Barlow Condensed", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[#080c14] text-[#dde3f0];
+  }
+}
+
+.cell-working {
+  @apply bg-[#06d6a018] text-[#6ee7b7] font-bold;
+}
+
+.cell-working-peak {
+  @apply bg-[#4361ee25] text-[#a5b4fc] font-bold;
+}
+
+.cell-libre {
+  @apply bg-[#ffffff0e] text-[#555];
+}
+
+.cell-vacation {
+  @apply bg-[#fb850022] text-[#fb8500] font-bold;
+}
+
+.cell-unavailable {
+  @apply bg-[#ffffff06] text-[#444];
+}
+
+.generate-btn {
+  @apply transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(67,97,238,0.33)];
+}
